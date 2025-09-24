@@ -67,11 +67,11 @@ namespace StoreApp
 
         static void AddTestData()
         {
-            AddProduct("Ноутбук", 50000, 5, Category.Электроника);
-            AddProduct("Футболка", 1500, 20, Category.Одежда);
-            AddProduct("Шоколадка", 80, 100, Category.Еда);
+            AddProduct("Наушики", 10000, 10, Category.Электроника);
+            AddProduct("Куртка", 3000, 150, Category.Одежда);
+            AddProduct("Хлебцы", 50, 100, Category.Еда);
             AddProduct("Учебник", 1200, 15, Category.Книги);
-            AddProduct("Мяч", 2000, 8, Category.Спорт);
+            AddProduct("Наколенники", 5000, 20, Category.Спорт);
         }
 
         static void AddProduct(string name, decimal price, int quantity, Category category)
