@@ -350,3 +350,4 @@ namespace StoreApp
         }
     }
 }
+//как-то так
